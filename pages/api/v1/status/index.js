@@ -11,7 +11,7 @@ async function status(request, response) {
     values: [databaseName],
   });
   const maxConnections = await database.query("SHOW max_connections;");
-  console.log(activeConnections);
+
   response.status(200).json({
     updated_at: updatedAt,
     dependencies: {
