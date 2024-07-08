@@ -2,7 +2,7 @@ name: Automated tests
 
 on: pull_request
 
-Jobs:
+jobs:
   jtest:
     name: Jtest Ubutun
     runs-on: ubuntu-latest
