@@ -1,4 +1,3 @@
-import { NodeNextRequest } from "next/dist/server/base-http/node";
 import database from "/infra/database.js";
 
 async function status(request, response) {
